@@ -1,6 +1,6 @@
 import os.path
 
-import numpy as np
+import numpy as np # type: ignore
 
 from whisper.audio import SAMPLE_RATE, load_audio, log_mel_spectrogram
 
